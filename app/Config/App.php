@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://139-144-120-194.ip.linodeusercontent.com/';
+    public string $baseURL = 'http://mypc04project.local/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
