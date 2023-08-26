@@ -5,47 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Shop Homepage - Start Bootstrap Template</title>
+        <title>Agency - Start Bootstrap Theme</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="<?=base_url('product')?>/assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="<?=base_url('product')?>/https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="<?=base_url('exam')?>/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="<?=base_url('exam')?>/https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="<?=base_url('exam')?>/https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="<?=base_url('exam')?>/https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="<?=base_url('product')?>/css/styles.css" rel="stylesheet" />
-        <link href="<?=base_url('product')?>/css/mystyle.css" rel="stylesheet" />
-
-       
-
+        <link href="<?=base_url('exam')?>/css/styles.css" rel="stylesheet" />
     </head>
-    <body>
+    <body id="page-top">
         <!-- Navigation-->
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="<?=base_url('product')?>/#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="<?=base_url('product')?>/#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="<?=base_url('product')?>/#!">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="<?=base_url('product')?>/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="<?=base_url('product')?>/#!">All Products</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="<?=base_url('product')?>/#!">Popular Items</a></li>
-                                <li><a class="dropdown-item" href="<?=base_url('product')?>/#!">New Arrivals</a></li>
-                            </ul>
-                        </li>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="<?=base_url('exam')?>/#page-top"><img src="<?=base_url('exam')?>/assets/img/navbar-logo.svg" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="<?=base_url('exam')?>/#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?=base_url('exam')?>/#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?=base_url('exam')?>/#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?=base_url('exam')?>/#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?=base_url('exam')?>/#contact">Contact</a></li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
-                    </form>
                 </div>
+            </div>
         </nav>
-
-       
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Studio!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="<?=base_url('exam')?>/#services">Tell Me More</a>
+            </div>
+        </header>
